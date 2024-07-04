@@ -1,10 +1,11 @@
 import "./App.css";
+import Forms from "./components/Forms/Forms";
 
 const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="w-full">
+      <Forms />
+    </div>
   );
 };
 
